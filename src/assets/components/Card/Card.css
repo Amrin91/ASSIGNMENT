@@ -1,0 +1,75 @@
+
+.mains{
+    
+    height:678px;
+    margin:112px 112px 112px 112px;
+    
+    
+}
+
+.absolute1{
+    position:relative;
+    left:290px;
+    width: 949px;
+    height: 678px;
+    gap: 0px;
+    border-radius: 37px;
+    margin-right:400px;
+    overflow:hidden;
+
+}
+.relative1{
+    position:relative;
+    top:-640px;
+    left:30px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    background:white;
+    width: 706px;
+    height: 552px;
+    border-radius: 30px;
+    padding:50px 0px 0px 50px;
+    border: 1px solid green;
+
+}
+
+.para{
+    height:180px;
+    width:526px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    
+
+}
+.para p{
+    text-align:left;
+}
+
+.relative11 h1{
+    font-family: Montserrat;
+    font-size: 40px;
+   font-weight: 700;
+   line-height: 48.76px;
+   text-align: left;
+
+}
+.card{
+    width: 253px;
+    padding: 20px 65px 20px 65px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    color:#003080
+
+}
+.card:hover{
+    background: #003080;
+    color:white;
+}
+.titeh h1{
+    text-align:left;
+}
+

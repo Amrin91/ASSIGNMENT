@@ -1,0 +1,156 @@
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+    margin: 50px auto;
+}
+
+
+.main-news {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    flex: 1;  
+}
+
+
+
+.main-news-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-date {
+    width:138px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.main-title {
+    width:auto;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align:left;
+}
+
+.main-description {
+    width:630px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: justify;
+}
+
+
+.additional-news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;  
+}
+
+.additional-news-item {
+    height:150px;
+    width:698px;
+    display: flex;
+    margin:0px;
+    gap: 10px;
+    padding-left:100px;
+}
+
+.additional-news-image {
+    object-fit: cover;
+}
+
+.additional-news-details {
+    height:105px;
+    width:381px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.additional-date {
+    width:139px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align:left;
+}
+
+.additional-title {
+    width:300px;
+    height:54px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align:left;
+}
+
+/* Button Styling */
+.view-more-btn-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+.view-more-btn {
+    padding: 10px 20px;
+    background: white;
+    color:#003080;
+    font-size: 1rem;
+    border: 1px solid blue;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.view-more-btn:hover {
+    padding: 10px 20px;
+    background: #003080;
+    color:white;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.94px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.news-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.flex-container{
+    margin-left:130px;
+}

@@ -1,0 +1,24 @@
+.connect {
+    position: relative;
+    overflow: hidden;
+}
+
+.connect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../Img/p.png');
+    background-size: cover;
+    background-position: center;
+    filter:grayscale(1) brightness(0.6) sepia(1) hue-rotate(180deg) saturate(2);; 
+    opacity: 1;
+    z-index: 1;
+}
+
+.connect > * {
+    position: relative;
+    z-index: 2; /* Ensures Navbar and Header are above the overlay */
+}

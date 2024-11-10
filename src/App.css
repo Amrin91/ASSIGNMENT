@@ -1,0 +1,52 @@
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.additional-news-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.view-more-btns {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.title h2{
+    margin:auto;
+}
+
+.flex-container{
+    display:flex;
+    gap:40px;
+}
+.jjj{
+    display:flex;
+    flex-direction:column;
+   
+}
+.Break{
+    margin:50px;
+}
+.Break p{
+    height:52px;
+    width:1202px;
+    padding-left:100px;
+}
+
+.fllex-container{
+    display:flex;
+    margin-top:30px;
+}

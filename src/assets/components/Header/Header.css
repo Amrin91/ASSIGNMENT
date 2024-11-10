@@ -1,0 +1,72 @@
+.container_h{
+    display:flex;
+    height:500px;
+    flex-direction:column;
+    align-items:center;
+    margin-top:60px;
+    
+}
+
+
+.boxx{
+    margin:auto;
+    height:90px;
+    width:90px;
+    background:white;
+    align-items:center;
+    flex:end;
+}
+.boxx1 h1{
+    font-family: Montserrat;
+    font-size: 65.24px;
+    font-weight: 700;
+    line-height: 79.52px;
+    text-align: center;
+    color:#FFE600;
+
+
+}
+.boxx1 h2{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    text-align: center;
+    color:white;
+
+}
+h1,h2,h3{
+    text-align:center;
+    margin:auto;
+}
+.button{
+    width:359px;
+    height:56px;
+    border-radius:50px;
+    background:white;
+    color:#003080;
+    margin:auto;
+    cursor:pointer;
+    color: #003080;
+    text-align:center;
+    padding-top:15px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;    
+    line-height: 24.38px;
+
+}
+.button:hover{
+    background:#FFE600;
+    color:black;
+  
+}
+.dropdown:hover img{
+    background:#FFE600;
+    color:black;
+    width: 250px; 
+    opacity: 1;
+    visibility: visible;
+    transition: width 0.4s ease, opacity 0.4s ease;
+  }
+

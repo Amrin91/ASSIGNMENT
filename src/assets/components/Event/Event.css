@@ -1,0 +1,65 @@
+
+.event-additional-date{
+   
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 22.68px;
+text-align: left;
+
+}
+.additional-event-details{
+    width: 636px;
+    height:148px;
+    display:flex;
+    flex-direction:column;
+    gap: 0px;
+    opacity: 0px;
+    margin:0;
+    padding:0;
+
+}
+.additional-event-item{
+    display:flex;
+    gap:20px;
+}
+.events-container{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+
+.event-additional-title p{
+    width: 636px;
+    height: 23px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+font-size: 22px;
+font-weight: 700;
+line-height: 22.68px;
+text-align: left;
+}
+
+
+.event-additional-para p{
+    width: 636px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+
+}
+.fleex-container{
+    display:flex;
+    flex-direction:column;
+}
